@@ -1,9 +1,9 @@
 apiVersion: s3.services.k8s.aws/v1alpha1
 kind: Bucket
 metadata:
-  name: my-s3-controller-enyrcpted-bucket
+  name: kld-s3-argocd-controller-enyrcpted-bucket
 spec:
-  name: kld-s3-my-s3-controller-enyrcpted-bucket
+  name: kld-s3-argocd-s3-controller-enyrcpted-bucket
   encryption:
     rules:
     - bucketKeyEnabled: false
