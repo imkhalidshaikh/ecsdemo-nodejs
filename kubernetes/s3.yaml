@@ -11,3 +11,7 @@ spec:
         sseAlgorithm: AES256
   versioning:
     status: Enabled
+  tagging:
+    tagSet:
+      - key: CostCenter
+        value: Development
